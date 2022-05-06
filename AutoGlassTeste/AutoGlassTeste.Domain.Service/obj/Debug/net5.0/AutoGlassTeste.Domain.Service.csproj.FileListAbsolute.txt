@@ -1,0 +1,17 @@
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.Service.deps.json
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.Service.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\ref\AutoGlassTeste.Domain.Service.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.Service.pdb
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.Core.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.Core.pdb
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\bin\Debug\net5.0\AutoGlassTeste.Domain.pdb
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.csproj.AssemblyReference.cache
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.AssemblyInfoInputs.cache
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.AssemblyInfo.cs
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.csproj.CoreCompileInputs.cache
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.csproj.CopyComplete
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\ref\AutoGlassTeste.Domain.Service.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain.Service\obj\Debug\net5.0\AutoGlassTeste.Domain.Service.pdb

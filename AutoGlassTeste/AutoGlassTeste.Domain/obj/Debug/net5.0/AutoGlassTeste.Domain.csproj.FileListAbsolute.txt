@@ -1,0 +1,12 @@
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\bin\Debug\net5.0\AutoGlassTeste.Domain.deps.json
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\bin\Debug\net5.0\AutoGlassTeste.Domain.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\bin\Debug\net5.0\ref\AutoGlassTeste.Domain.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\bin\Debug\net5.0\AutoGlassTeste.Domain.pdb
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.csproj.AssemblyReference.cache
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.AssemblyInfoInputs.cache
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.AssemblyInfo.cs
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.csproj.CoreCompileInputs.cache
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\ref\AutoGlassTeste.Domain.dll
+C:\Users\evand\source\repos\AutoGlassTeste\AutoGlassTeste\AutoGlassTeste.Domain\obj\Debug\net5.0\AutoGlassTeste.Domain.pdb
