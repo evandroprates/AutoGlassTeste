@@ -1,5 +1,6 @@
 ﻿using AutoGlassTeste.Application.DTO;
 using AutoGlassTeste.Application.Interfaces;
+using AutoGlassTeste.Domain.Entity;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -14,12 +15,10 @@ namespace AutoGlassTeste.Controllers
     public class ProdutoController : ControllerBase
     {
         private readonly IApplicationServiceProduto _applicationServiceProduto;
-        private readonly IMapper mapper;
 
-        public ProdutoController(IApplicationServiceProduto applicationServiceProduto, IMapper mapper)
+        public ProdutoController(IApplicationServiceProduto applicationServiceProduto)
         {
             _applicationServiceProduto = applicationServiceProduto;
-            this.mapper = mapper;
         }
 
         [HttpGet]
@@ -66,17 +65,17 @@ namespace AutoGlassTeste.Controllers
         }
 
         [HttpPut()]
-        public ActionResult Put([FromBody] ProdutoDto produtoDto)
+        public ActionResult Put([FromBody] Produto produto)
         {
             try
             {
-                if (produtoDto == null)
+                if (produto == null)
                     return NotFound();
-                else if (produtoDto.Situacao == "Ativo" || produtoDto.Situacao == "Inativo")
+                else if (produto.Situacao == "Ativo" || produto.Situacao == "Inativo")
                 {
-                    if (produtoDto.DataFabricacao <= produtoDto.DataValidade)
+                    if (produto.DataFabricacao <= produto.DataValidade)
                     {
-                        _applicationServiceProduto.Update(produtoDto);
+                        _applicationServiceProduto.Update(produto);
                         return Ok("Produto Atualizado");
                     }
                     else
@@ -97,16 +96,16 @@ namespace AutoGlassTeste.Controllers
         }
 
         [HttpDelete()]
-        public ActionResult Delete([FromBody] ProdutoDto produtoDto)
+        public ActionResult Delete([FromBody] Produto produto)
         {
             try
             {
-                if (produtoDto == null)
+                if (produto == null)
                     return NotFound();
 
-                produtoDto.Situacao = "Inativo";
+                produto.Situacao = "Inativo";
 
-                _applicationServiceProduto.Remove(produtoDto);
+                _applicationServiceProduto.Remove(produto);
 
                 return Ok("Produto Atualizado");
             }

@@ -5,6 +5,7 @@ using AutoGlassTeste.Domain.Core.Interfaces.Repository;
 using AutoGlassTeste.Domain.Core.Interfaces.Services;
 using AutoGlassTeste.Domain.Service;
 using AutoGlassTeste.Infraestrutura.Data.Repositorys;
+using AutoMapper;
 using DotNetOpenAuth.OAuth;
 using System;
 using System.Collections.Generic;
@@ -23,6 +24,7 @@ namespace AutoGlassTeste.Infraestrutura.CrossCuting
             builder.RegisterType<ApplicationServiceProduto>().As<IApplicationServiceProduto>();
             builder.RegisterType<ServiceProduto>().As<IServiceProduto>();
             builder.RegisterType<MapperProduto>().As<IMapperProduto>();
+            //builder.RegisterType<MapperProduto>().As<Profile>();
             builder.RegisterType<RepositoryProduto>().As<IRepositoryProduto>();
 
             #endregion

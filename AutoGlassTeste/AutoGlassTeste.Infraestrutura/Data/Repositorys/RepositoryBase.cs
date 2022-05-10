@@ -12,12 +12,11 @@ namespace AutoGlassTeste.Infraestrutura.Data.Repositorys
     public class RepositoryBase<TEntity> : IRepositoryBase<TEntity> where TEntity : class
     {
         private readonly Context context;
-        private readonly IMapper mapper;
+        //private readonly IMapper mapper;
 
-        public RepositoryBase(Context context, IMapper mapper)
+        public RepositoryBase(Context context)
         {
             this.context = context;
-            this.mapper = mapper;
         }
 
         public void Add(TEntity obj)

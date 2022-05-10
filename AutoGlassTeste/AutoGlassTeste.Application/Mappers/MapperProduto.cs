@@ -39,6 +39,23 @@ namespace AutoGlassTeste.Application
             return produto;
         }
 
+        public Produto MapperDelUpEntity(Produto produtoDelUp)
+        {
+            var produto = new Produto()
+            {
+                CodigoProduto = produtoDelUp.CodigoProduto,
+                Cnpj = produtoDelUp.Cnpj,
+                CodigoFornecedor = produtoDelUp.CodigoFornecedor,
+                DataFabricacao = produtoDelUp.DataFabricacao,
+                DataValidade = produtoDelUp.DataValidade,
+                DescricaoFornecedor = produtoDelUp.DescricaoFornecedor,
+                DescricaoProduto = produtoDelUp.DescricaoProduto,
+                Situacao = produtoDelUp.Situacao
+            };
+
+            return produto;
+        }
+
         public ProdutoDto MapperEntityToDto(Produto produto)
         {
             var produtoDto = new ProdutoDto()

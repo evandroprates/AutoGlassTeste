@@ -11,6 +11,7 @@ namespace AutoGlassTeste.Application.Interfaces
     public interface IMapperProduto
     {
         Produto MapperDtoEntity(ProdutoDto produtoDto);
+        Produto MapperDelUpEntity(Produto produto);
         IEnumerable<ProdutoDto> MapperListProdutosDto(IEnumerable<Produto> produtos);
         ProdutoDto MapperEntityToDto(Produto produto);
 
