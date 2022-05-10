@@ -18,11 +18,18 @@ namespace AutoGlassTeste.Application
 
         private readonly IMapper mapper;
 
-        public ApplicationServiceProduto(IServiceProduto serviceProduto, IMapperProduto mapperProduto, IMapper mapper)
+        //public ApplicationServiceProduto(IServiceProduto serviceProduto, IMapperProduto mapperProduto, IMapper mapper)
+        //{
+        //    this.serviceProduto = serviceProduto;
+        //    this.mapperProduto = mapperProduto;
+        //    this.mapper = mapper;
+        //}
+
+        public ApplicationServiceProduto(IServiceProduto serviceProduto, IMapperProduto mapperProduto)
         {
             this.serviceProduto = serviceProduto;
             this.mapperProduto = mapperProduto;
-            this.mapper = mapper;
+            //this.mapper = mapper;
         }
 
         public void Add(ProdutoDto produtoDto)
