@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using AutoGlassTeste.Application;
+using AutoGlassTeste.Application.DTO;
 using AutoGlassTeste.Application.Interfaces;
 using AutoGlassTeste.Domain.Core.Interfaces.Repository;
 using AutoGlassTeste.Domain.Core.Interfaces.Services;
@@ -23,9 +24,13 @@ namespace AutoGlassTeste.Infraestrutura.CrossCuting
 
             builder.RegisterType<ApplicationServiceProduto>().As<IApplicationServiceProduto>();
             builder.RegisterType<ServiceProduto>().As<IServiceProduto>();
-            builder.RegisterType<MapperProduto>().As<IMapperProduto>();
-            //builder.RegisterType<MapperProduto>().As<Profile>();
+            //builder.RegisterType<MapperProduto>().As<IMapperProduto>();
+            builder.RegisterType<MapperProduto>().As<Profile>();
             builder.RegisterType<RepositoryProduto>().As<IRepositoryProduto>();
+
+            builder.Register(x => new MapperConfiguration(y => {
+                y.AddProfile(new MapperProduto());
+            }));
 
             #endregion
         }

@@ -17,6 +17,7 @@ using AutoGlassTeste.Infraestrutura.CrossCuting.IOC;
 using AutoGlassTeste.Infraestrutura.Data;
 using Microsoft.EntityFrameworkCore;
 using DotNetOpenAuth.OAuth;
+using AutoGlassTeste.Application;
 
 namespace AutoGlassTeste
 {
@@ -42,7 +43,8 @@ namespace AutoGlassTeste
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "AutoGlassTeste", Version = "v1" });
             });
 
-            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+            services.AddAutoMapper(typeof(MapperProduto));
+
 
         }
 

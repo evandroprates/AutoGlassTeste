@@ -15,26 +15,26 @@ namespace ProdutosTeste.Services
 {
     public class ProdutoServiceTeste
     {
-        private ApplicationServiceProduto produtoService;
+        //private ApplicationServiceProduto produtoService;
 
-        public ProdutoServiceTeste()
-        {
-            produtoService = new ApplicationServiceProduto(new Mock<IServiceProduto>().Object, new Mock<IMapperProduto>().Object);
-        }
+        //public ProdutoServiceTeste()
+        //{
+        //    produtoService = new ApplicationServiceProduto(new Mock<IServiceProduto>().Object, new Mock<IMapperProduto>().Object);
+        //}
 
-        [Fact]
-        public void Post_ValidandoAtualizacao()
-        {
-            var exception = Assert.Throws<Exception>(() => produtoService.Update(new Produto()));
-            Assert.Equal("ID não é válido", exception.Message);
-        }
+        //[Fact]
+        //public void Post_ValidandoAtualizacao()
+        //{
+        //    var exception = Assert.Throws<Exception>(() => produtoService.Update(new Produto()));
+        //    Assert.Equal("ID não é válido", exception.Message);
+        //}
 
-        [Fact]
-        public void Post_ValidandoPost()
-        {
-            var exception = Assert.Throws<Exception>(() => produtoService.Add(new ProdutoDto()));
-            Assert.Equal("ID não é válido", exception.Message);
-        }
+        //[Fact]
+        //public void Post_ValidandoDelete()
+        //{
+        //    var exception = Assert.Throws<Exception>(() => produtoService.Remove(new Produto()));
+        //    Assert.Equal("ID não é válido", exception.Message);
+        //}
 
     }
 }
